@@ -1,0 +1,155 @@
+/* PAGE */
+
+body,
+.pure-g [class*=pure-u] {
+  font-family: 'Open Sans', sans-serif;
+  background-color: black;
+}
+
+h1, h2, h3 {
+  font-family: 'Oswald', 'Arial Narrow', sans-serif;
+}
+
+code {
+  display: block;
+  margin: 20px 0 15px 0;
+  padding: 10px;
+  background: #eee;
+}
+
+.container {
+  box-sizing: border-box;
+  color: white;
+  width: 100%;
+  padding: 45px 20px;
+}
+
+.pure-button-primary {
+  background-color: #0c1a2b;
+}
+
+.pure-button-primary:hover {
+  background-color: #233e5e;
+}
+
+.pure-form input[type="text"]:focus {
+  border-color: #0c1a2b;
+}
+
+/* NAVBAR */
+
+.navbar {
+  position: fixed;
+  padding: 5px;
+  background: #0c1a2b;
+  font-family: 'Oswald', 'Arial Narrow', sans-serif;
+}
+
+.navbar a {
+  color: #fff;
+}
+
+.navbar a:active,
+.navbar a:focus,
+.navbar a:hover {
+  background:#0c1a2b;
+  color: white;
+}
+
+.navbar .pure-menu-heading {
+  font-weight: bold;
+  text-transform: none;
+}
+
+.navbar .navbar-right {
+  float: right;
+}
+
+.navbar .uport-logo {
+  height: 16px;
+  margin-right: 10px;
+}
+
+.navbarr {
+  position: fixed;
+  font-size: 25px;
+  margin: 50px 0px 0px 0;
+  background: #fdfdfd;
+  color: black;
+  font-family: 'Oswald', 'Arial Narrow', sans-serif;
+  width: 100%;
+  padding: 0px 20px;
+}
+
+.f1{
+  float:right;
+  margin-right: 100px;
+  margin-top: 20px;
+}
+
+
+.f2{
+  padding: 20px;
+  background-color: white;
+  width: 11.5%;
+  margin-left: 500px;
+}
+
+.f3{
+  padding: 20px;
+  margin: -240px;
+  margin-left: 20px;
+  background-color: white;
+  color: black;
+  width: 14.3%;
+}
+
+.f3 input[type=submit]{
+  background:black;
+  color: white;
+  border:none;
+  width: 99.5%;
+}
+
+.f3 input[type=submit]:hover{
+  background:darkcyan;
+  color: white;
+  border:none;
+  width: 99.5%;
+}
+
+
+.f3 a:hover {
+  background:black;
+  color: white;
+}
+
+
+.sf3{
+  margin-top: 90px;
+  padding: 20px;
+  margin-left: 25px;
+  background-color: white;
+  color: black;
+  width: 15%;
+}
+
+.sf3 input[type=submit]{
+  background:black;
+  color: white;
+  border:none;
+  width: 99.5%;
+}
+
+.sf3 input[type=submit]:hover {
+  color: black;
+  background:lightgrey;
+}
+
+.sformb{
+  padding: 20px;
+  background-color:black;
+  color:white;
+  width: 80%;
+}
+
